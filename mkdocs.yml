@@ -12,19 +12,23 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
+  icon:
+    admonition:
+      note: octicons/info-16
+      warning: material/alert
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: blue
+      accent: orange
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: blue
+      accent: orange
 
 extra:
   social:
@@ -44,8 +48,14 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

@@ -1,63 +1,17 @@
-# Home Builder Documentation
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the Home Builder Documentation. This site will tell you everything you need to need to know about...
 
-## Code Annotation Examples
+## What is Home Builder
 
-### Codeblocks
+Home Builder is an add-on for Blender that...
 
-Some `code` hoes here.
+## Home Builder Download
 
-### Plain codeblock
+The Home Builder add-on can be downloaded from...
 
-A plain codeblock:
+## Support
 
-``` py
-#Some code here
-def my_function():
-    value = 0
-    return True
-```
+If you have any questions feel free to join the discord channel where you can...
 
-``` py title="my_script.py"
-#Some code here
-def my_function():
-    value = 0
-    return True
-```
-
-``` py title="my_script.py"
-#Some code here
-def my_function():
-    value = 0
-    return True
-```
-
-``` py linenums="1"
-#Some code here
-def my_function():
-    value = 0
-    return True
-```
-
-``` py hl_lines="2 3 6"
-#Some code here
-def my_function():
-    value = 0
-    value = 1
-    value = 2
-    value = 3
-    value = 4
-    value = 0
-    return True
-```
-
-## Icons and Emojs
-
-:smile:
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
+### Discord Channel
