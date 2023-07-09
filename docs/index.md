@@ -1,17 +1,29 @@
 # Home
 
-Welcome to the Home Builder Documentation. This site will tell you everything you need to need to know about...
+Welcome to the Home Builder Documentation. This site will tell you everything you need to need to know about how to use Home Builder.
 
 ## What is Home Builder
 
-Home Builder is an add-on for Blender that...
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hzdL8Wks45A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Home Builder Download
+Home Builder Is a free add-on for Blender that simplifies the process of designing interior architectural spaces with a strong focus on kitchens, baths, and closets for homes. 
 
-The Home Builder add-on can be downloaded from...
+Home Builder is currently in beta and is activly being developed. The source code is hosted on :fontawesome-brands-github:{ .github } Github and can be found [here](https://github.com/CreativeDesigner3D/home_builder). Feel free to learn from it, modify it, distrubute custom versions, and develop new libraries.
 
-## Support
+## Features
 
-If you have any questions feel free to join the discord channel where you can...
+* Draw Wall Command - 
 
-### Discord Channel
+* Extensive Library of Products - 
+
+* Drag and Drop - 
+
+* Intuitive Placement of Assets - 
+
+* Right Click Prompts Interface - 
+
+* Library Settings - 
+
+* 2D Drawing Commands - 
+
+* Manufacturing Output - 
