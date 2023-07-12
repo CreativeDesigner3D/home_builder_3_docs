@@ -17,7 +17,7 @@ To install Home Builder:
 
 2. Download the Home Builder Add-on. This is a simple zip folder. There is NO need to extract it. We will install the zip folder directly into Blender.
 
-    [Home Builder Download](https://www.mkdocs.org){ .md-button }
+    [Home Builder Download](https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3.zip){ .md-button }
 
 3. In Blender go to Edit > Preferences.
 
