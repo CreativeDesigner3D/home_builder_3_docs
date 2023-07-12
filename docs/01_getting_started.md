@@ -48,7 +48,7 @@ The `About` button at the top of the interface opens an interface that shows you
 
 ## Library Categories
 
-The tabs below allow you to navigate to differnt library types.
+The tabs below allow you to navigate to different library types.
 
 * Rooms - This category allows you to draw walls, and see room information.
 
@@ -90,7 +90,7 @@ When in the draw wall command the available commands appear in the bottom status
 
 * `Right Click` or `Esc` to finish or cancel the command.
 
-* While drawing walls move your curor in the direction you want to draw your wall then `type numbers` to enter in exact wall lengths.
+* While drawing walls move your cursor in the direction you want to draw your wall then `type numbers` to enter in exact wall lengths.
 
 * Hold `Ctrl` to change the angle of the wall.
 
@@ -145,7 +145,7 @@ A wall is an Assembly. This is the basic building block of all Home Builder Asse
 
 ![Alt text](images/wall_outliner.png)
 
-Each wall is listed separtly and if you drop down the hierarchy you will find the wall consists of:
+Each wall is listed separately and if you drop down the hierarchy you will find the wall consists of:
 
 * Base Point - This is an empty object that contains the base point of all other objects.
 
@@ -161,7 +161,7 @@ Each wall is listed separtly and if you drop down the hierarchy you will find th
 
 ![Alt text](images/drag_material_to_wall.png)
 
-You can assign materials to the wall by dragging and dropping materials from the material library to the wall mesh. This will open an interface that allows you to assign them to the indiviual wall, or to the wall pointer which will update all walls in the scene.
+You can assign materials to the wall by dragging and dropping materials from the material library to the wall mesh. This will open an interface that allows you to assign them to the individual wall, or to the wall pointer which will update all walls in the scene.
 
 ![Alt text](images/wall_prompts.png)
 
@@ -220,7 +220,7 @@ If you want to save multiple objects as one asset to the library you need to par
 ![Alt text](images/save_deco_include_child_objects.png)
 
 !!! note
-    It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distrubute them to other users. View the Section on [Creating External Libraries](04_library_development.md#creating-external-decoration-and-material-libraries) for further details.
+    It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distribute them to other users. View the Section on [Creating External Libraries](04_library_development.md#creating-external-decoration-and-material-libraries) for further details.
 
 ## Materials
 
@@ -228,7 +228,7 @@ The Materials library is a library of standard Blender materials that can quickl
 
 You can switch between the different categories by using the drop down.
 
-You can place materials from the library by dragging and dropping them into the scene then selecting an object to assign them to. When placing materials on an object with multiple material slots a dialog will appear and allow you to assign them to indiviual material slots, or update a material pointer that is assigned to all of the objects in the scene.
+You can place materials from the library by dragging and dropping them into the scene then selecting an object to assign them to. When placing materials on an object with multiple material slots a dialog will appear and allow you to assign them to individual material slots, or update a material pointer that is assigned to all of the objects in the scene.
 
 ![Alt text](images/wall_material_assignment_dialog.png)
 
@@ -249,29 +249,29 @@ Then select `Save Active Material to Library` command in the Material Library Se
 ![Alt text](images/save_active_material_to_library.png)
 
 !!! note
-    It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distrubute them to other users. View the Section on [Creating External Libraries](04_library_development.md#creating-external-decoration-and-material-libraries) for further details.
+    It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distribute them to other users. View the Section on [Creating External Libraries](04_library_development.md#creating-external-decoration-and-material-libraries) for further details.
 
 ## Build Library
 
-The Build library is intended to allow you to design your own custom products. After snapping different starters, inserts, and parts together you can save your product to the user library where you can reuse your custom products in future projects. This works great for custom islands, custom closet confiurations, and other custom cabinets. 
+The Build library is intended to allow you to design your own custom products. After snapping different starters, inserts, and parts together you can save your product to the user library where you can reuse your custom products in future projects. This works great for custom islands, custom closet configurations, and other custom cabinets. 
 
 ![Alt text](images/build_library.png)
 
 ### Starters
 
-The Starters Library typically contains starter componets for creating new products. These starter componets also typically have openings that inserts and parts can be dropped into.
+The Starters Library typically contains starter components for creating new products. These starter components also typically have openings that inserts and parts can be dropped into.
 
 ### Inserts
 
-The Inserts Library typically contains componets that can be dropped into openings. If you are using the cabinet library you will notice that you can drop items like shelves, doors, and drawers into openings. After dropping an insert into an opening the insert will remain parametric and always match the opening size.
+The Inserts Library typically contains components that can be dropped into openings. If you are using the cabinet library you will notice that you can drop items like shelves, doors, and drawers into openings. After dropping an insert into an opening the insert will remain parametric and always match the opening size.
 
 ### Parts
 
-The Parts Library typically contains indivual parts that can be dropped onto a starter or into an opening depending on the parts. Each part may have it's own drop functionality to determine the best way it should be placed into the scene.
+The Parts Library typically contains individual parts that can be dropped onto a starter or into an opening depending on the parts. Each part may have it's own drop functionality to determine the best way it should be placed into the scene.
 
 ### User Library
 
-The User Library contians your own custom products or assemblies that you created. You can create new categories and save your assets to these categories.
+The User Library contains your own custom products or assemblies that you created. You can create new categories and save your assets to these categories.
 
 You can create new categories in the build library settings drop down. By selecting the `Create New Category` button.
 
