@@ -37,3 +37,5 @@ Now that the overall structure of our design is finished we are going to create 
 
 ![Alt text](images/2D_view_with_dimensions.png)
 
+!!! warning
+    I am still working on the rest of the documentation for this page. Part One of this tutorial series will be released soon.

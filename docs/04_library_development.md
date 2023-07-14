@@ -116,5 +116,5 @@ As you can see the MY_LIBRARY dictory implement these keys:
 * __library_activate_id__ - This is the bl_id of the operator that is used when clicking on an asset in the asset browser. This doesn't need to be implement all of Home Builders libraries just use the drop_id, but this was added just in case a library needed an event to trigger when an asset is simply clicked.
 * __library_drop_id__ - This is the bl_id of the operator that is used when dragging an asset in the asset browser. This is typically a modal operator that handles building or retriving the asset and determining how the asset should be placed in the scene. These operators can be difficult to implement since there is so much flexibility. It is recommended to review Blenders Documentation and exsisting Home Builder operators to see how these work.
 
-!!! note
-    This is a big topic. The information here doesn't even scratch the surface on what is possible. I will create tutorials and more information on how to develop libraries for Home Builder soon. Check back soon for more information.
+!!! warning
+    I am still working on the rest of the documentation for this page. This is a big topic. The information here doesn't even scratch the surface on what is possible. I will create tutorials and more information on how to develop libraries for Home Builder soon. Check back soon for more information.

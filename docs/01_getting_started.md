@@ -17,7 +17,7 @@ To install Home Builder:
 
 2. Download the Home Builder Add-on. This is a simple zip folder. There is NO need to extract it. We will install the zip folder directly into Blender.
 
-    [Home Builder Download](https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3.zip){ .md-button }
+    [Home Builder Download v3.0.7](https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3-1.zip){ .md-button }
 
 3. In Blender go to Edit > Preferences.
 
@@ -74,7 +74,10 @@ The tabs below allow you to navigate to different library types.
 
 Home Builder walls are intended to give you a quick way of accurately drawing rooms. You can click points, and type in wall lengths to draw out your room. 
 
-![image](https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/94a36a32-b4ff-4dc6-a25d-5ead256888cd)
+!!! video
+    This is a video that explains everything you need to know about walls. 
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/74o6yJW8PtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Drawing Walls
 

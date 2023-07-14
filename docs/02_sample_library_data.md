@@ -36,6 +36,9 @@ Entry Door Prompts display all of the properties for the doors.
 * Pull Location From Edge - This sets the horizontal location from the edge of the door to the where the handle is located.
 * Panel, Frame, and Handle Selection - This sets the components used for the selected door. The category above the thumbnail allows you to switch between different categories. The Home Builder Pro Library has a lot more options. If you select the thumbnail you will see a list of all of the available selections. Click on the thumbnail to swap out the component that is used.
 
+!!! warning
+    I am still working on the rest of the documentation for this page. Check back soon for more information.
+    
 ### Window Prompts UI
 
 ### Door and Window Commands
