@@ -1,5 +1,23 @@
 # Release Notes
 
+## v4.0.1 - Fix for Blender 4 Release
+
+!!! Details
+    * Fix Issues with Asset Viewing for Blender 4
+    * General Improvements to 2D Layout Views
+    * Add Anchor Property to Cabinets and Appliances
+    * Unmute Drivers when using Place Product on Wall Command
+    * Fix Duplicate Insert Command to Copy Hidden Parts
+    * Make Base Assembly Adjust with Left and Right Adjustment Values
+    * Update Logic Interface
+    * Implementing Geometry Node Assets
+    * Adding Built in Ovens and Microwaves
+    * Fix Adding Fillers to Appliances
+    * Update Snapping Module
+    * Add Snapping Properties to Interface
+    * Implement Go Back to Preview View Command When In Elevation View
+    * Add Select Room Base Point Command
+
 ## v3.0.7 - Fix Enable and Disable Add-on
 
 !!! Details
