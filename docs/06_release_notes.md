@@ -1,5 +1,24 @@
 # Release Notes
 
+## v4.0.3 - Wall Snap Angle Fix
+
+!!! Details
+    * Change Default Wall Snap Angle to 15
+    * Fix Accuracy When Changing Angle When Drawing Walls
+    * Remove PIL and reportlab python libraries
+    * Support Minute Second Typed Strings (silasb)
+    * Adding Text Sidebar Panel to View Current Library Code
+    * Unwrap Walls After Drawing
+    * Show Typed Size in Status Bar (silasb)
+    * Fix Place Cabinet on Wall Command
+
+## v4.0.2 - Millimeter Display for Dimensions
+
+!!! Details
+    * Implement Ability to Display Dimensions as Millimeter
+    * Fix Issue with Creating 0 size Cut Parts
+    * Add Python Template Home Builder Automation Script
+
 ## v4.0.1 - Fix for Blender 4 Release
 
 !!! Details

@@ -7,7 +7,7 @@ This page will give you an overview of all of the aspects of how to use Home Bui
 
 ## Download & Installation
 
-Home Builder is compatible with Blender 3.x and up. You can find more information about Blender [here](https://www.blender.org/).
+Home Builder is compatible with Blender 4.x and up. You can find more information about Blender [here](https://www.blender.org/).
 
 To install Home Builder:
 
@@ -17,9 +17,9 @@ To install Home Builder:
 
 2. Download the Home Builder Add-on. This is a simple zip folder. There is NO need to extract it. We will install the zip folder directly into Blender. If you are using Blender 4 or newer use the v4 download. If you are using Blender 3.6 use the v3 download.
 
-    [Home Builder Download v4.0.1](https://creativedesigner3d.files.wordpress.com/2023/12/home_builder_4.zip){ .md-button }
+    [Home Builder Download v4](https://creativedesigner3d.files.wordpress.com/2023/12/home_builder_4.zip){ .md-button }
 
-    [Home Builder Download v3.0.7](https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3-1.zip){ .md-button }
+    [Home Builder Download v3](https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3-1.zip){ .md-button }
 
 3. In Blender go to Edit > Preferences.
 
@@ -29,7 +29,11 @@ To install Home Builder:
 
     ![Install Button](https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/f09ff6ea-6192-43d3-8a2d-b1ea881f408c)
 
-5. Browse to the home_builder3.zip file you downloaded and click Install Add-on.
+    Blender 4.2 has changed the interface for installing add-ons from disk. If you are using Blender 4.2 or newer you will find the install button in the drop down menu.
+
+    ![alt text](images/install_from_disk_blender_42.png)
+
+5. Browse to the home_builder zip file you downloaded and click Install Add-on.
 6. Check the box next to the Home Builder Add-on to enable it.
 7. Updates are pushed using the add-on auto updater. The install might be an older version, so click the `Check now for home_builder update` button to make sure you are on the latest version.
 
@@ -97,7 +101,7 @@ When in the draw wall command the available commands appear in the bottom status
 
 * While drawing walls move your cursor in the direction you want to draw your wall then `type numbers` to enter in exact wall lengths.
 
-* Hold `Ctrl` to change the angle of the wall.
+* Hold `Alt` to change the angle of the wall.
 
 * After you have drawn more than two walls you can type the `C` key to close the room. This connects the wall you are drawing with the start point of the first wall.
 

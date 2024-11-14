@@ -3,8 +3,10 @@ theme:
   name: material
   features:
     - navigation.tabs
+    # - navigation.expand
     - navigation.tabs.sticky
     - navigation.sections
+    # - navigation.path
     - toc.integrate
     - navigation.top
     - search.suggest
