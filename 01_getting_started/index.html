@@ -1,0 +1,1131 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../02_sample_library_data/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Getting Started - Home Builder Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75M8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Home Builder Documentation" class="md-header__button md-logo" aria-label="Home Builder Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Home Builder Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../02_sample_library_data/" class="md-tabs__link">
+        
+  
+    
+  
+  Sample Library Data
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../03_tutorial_design_your_own_home_remodel/" class="md-tabs__link">
+        
+  
+    
+  
+  Tutorial: Design Your Own Home Remodel
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../04_library_development/" class="md-tabs__link">
+        
+  
+    
+  
+  Library Development
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../05_troubleshooting/" class="md-tabs__link">
+        
+  
+    
+  
+  Troubleshooting
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../06_release_notes/" class="md-tabs__link">
+        
+  
+    
+  
+  Release Notes
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Home Builder Documentation" class="md-nav__button md-logo" aria-label="Home Builder Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Home Builder Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download &amp; Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-home-builder-library-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Home Builder Library Interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#library-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Library Categories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#drawing-walls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drawing Walls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wall-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wall Prompts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wall-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wall Commands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-wall-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Wall Object
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assigning-materials-to-walls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assigning Materials to Walls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Products
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#placing-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Placing Products
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Prompts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Commands
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decorations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decorations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Decorations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-your-own-decorations-to-the-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saving Your Own Decorations to the Library
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materials
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-your-own-materials-to-the-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saving Your Own Materials to the Library
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build Library
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Build Library">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#starters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inserts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inserts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Library
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_sample_library_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sample Library Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_tutorial_design_your_own_home_remodel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorial: Design Your Own Home Remodel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_library_development/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Library Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_release_notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="getting-started">Getting Started</h1>
+<p>This page will give you an overview of all of the aspects of how to use Home Builder. If you are new to using Home Builder it is recommended that you start by watching a tutorial on the tutorials page, and use this page to look up information on a specific topic.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Even if you are a very skilled Blender user it is important to at least watch the overview video for Home Builder. Home Builder was designed to be easy-to-use even for beginners or people who have never used Blender. Assets are dragged and dropped from the Home Builder Asset library in the 3D View sidebar, and properties for these assets are accessed from the right click Prompts Interface. Using Blender Hotkeys may not work in the same way for these assets. This mainly applies to the <code>G</code> <code>R</code> <code>S</code> <code>X</code> and <code>Tab</code> hotkey commands. Use the Prompts Interface.</p>
+</div>
+<h2 id="download-installation">Download &amp; Installation</h2>
+<p>Home Builder is compatible with Blender 4.x and up. You can find more information about Blender <a href="https://www.blender.org/">here</a>.</p>
+<p>To install Home Builder:</p>
+<ol>
+<li>
+<p>Download and Install the latest version of Blender.</p>
+<p><a class="md-button" href="https://www.blender.org/download/">Blender Download Page</a></p>
+</li>
+<li>
+<p>Download the Home Builder Add-on. This is a simple zip folder. There is NO need to extract it. We will install the zip folder directly into Blender. If you are using Blender 4 or newer use the v4 download. If you are using Blender 3.6 use the v3 download.</p>
+<p><a class="md-button" href="https://creativedesigner3d.files.wordpress.com/2023/12/home_builder_4.zip">Home Builder Download v4</a></p>
+<p><a class="md-button" href="https://creativedesigner3d.files.wordpress.com/2023/07/home_builder3-1.zip">Home Builder Download v3</a></p>
+</li>
+<li>
+<p>In Blender go to Edit &gt; Preferences.</p>
+<p><img alt="Edit Preferences" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/8b85a0a8-acce-4d04-89a1-a67ad532fa6a" /></p>
+</li>
+<li>
+<p>In the Add-on Tab click the <code>Install...</code> button in the top right corner.</p>
+<p><img alt="Install Button" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/f09ff6ea-6192-43d3-8a2d-b1ea881f408c" /></p>
+<p>Blender 4.2 has changed the interface for installing add-ons from disk. If you are using Blender 4.2 or newer you will find the install button in the drop down menu.</p>
+<p><img alt="alt text" src="../images/install_from_disk_blender_42.png" /></p>
+</li>
+<li>
+<p>Browse to the home_builder zip file you downloaded and click Install Add-on.</p>
+</li>
+<li>Check the box next to the Home Builder Add-on to enable it.</li>
+<li>
+<p>Updates are pushed using the add-on auto updater. The install might be an older version, so click the <code>Check now for home_builder update</code> button to make sure you are on the latest version.</p>
+<p><img alt="Enable Addon" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/a051eaa1-2db3-43c3-b523-718e0843faa3" /></p>
+</li>
+</ol>
+<h2 id="the-home-builder-library-interface">The Home Builder Library Interface</h2>
+<p>The Home Builder Interface is located in the 3D view sidebar. The sidebar can be toggled by moving your cursor over the 3D view and typing the <code>N</code> key. The library is displayed in the Home Builder tab.</p>
+<p><img alt="Home Builder Library Interface" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/bf8ad530-4026-428c-9b8c-c629d436a0b9" /></p>
+<p>The <code>About</code> button at the top of the interface opens an interface that shows you the current version, the libraries you currently have installed, and links to documentation.</p>
+<p><img alt="About Interface" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/e9abaccc-588c-4faa-9e10-eba1241774ee" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If is recommended that you check for updates on a regular basis by clicking the <code>Check for Updates</code> button.</p>
+</div>
+<h2 id="library-categories">Library Categories</h2>
+<p>The tabs below allow you to navigate to different library types.</p>
+<ul>
+<li>
+<p>Rooms - This category allows you to draw walls, and see room information.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/0684f717-837c-4d0b-91da-f4bfbda872ad" /></p>
+</li>
+<li>
+<p>Products - This category displays all of the product libraries. Product Libraries are assets that typically would need to be purchased or built for a room. Home Builder includes sample libraries for Cabinets, Appliances, Doors and Windows, and Bathroom Fixtures.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/9d1ce774-27b4-437c-bc95-ffe127fa9a88" /></p>
+</li>
+<li>
+<p>Decorations - This category displays all of the decoration libraries. Decorations are standard Blender Objects. This category allows you to maintain your own categories of Objects that you can quickly add to the scene.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/8988bf71-350c-4eb3-812a-4d049b68ddbe" /></p>
+</li>
+<li>
+<p>Materials - This category displays all of the material libraries. These are standard Blender Materials. This category allows you to maintain your own categories of Materials that you can quickly assign to objects in the scene.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/df5283c2-3980-4998-b0b6-2be611ded45c" /></p>
+</li>
+<li>
+<p>Build - This category allows you to design your own products from components. </p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/be4dc0e6-a133-494d-afc8-692676dc4dcc" /></p>
+</li>
+</ul>
+<h2 id="walls">Walls</h2>
+<p>Home Builder walls are intended to give you a quick way of accurately drawing rooms. You can click points, and type in wall lengths to draw out your room. </p>
+<div class="admonition video">
+<p class="admonition-title">Video</p>
+<p>This is a video that explains everything you need to know about walls. </p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/74o6yJW8PtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+</div>
+<h3 id="drawing-walls">Drawing Walls</h3>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/8ac5f4ee-c846-4acb-a234-80af282e0742" /></p>
+<p>To activate the draw wall command click the <code>DRAW WALL</code> button in the Home Builder Sidebar. This command is available in the Rooms Category. Right below the Command you can enter in the default Wall Height and Wall Thickness.</p>
+<p>When in the draw wall command the available commands appear in the bottom status bar.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/19c01be6-92f3-4ec6-8954-4915bb7f5701" /></p>
+<ul>
+<li>
+<p><code>Left Click</code> to draw wall segments.</p>
+</li>
+<li>
+<p><code>Right Click</code> or <code>Esc</code> to finish or cancel the command.</p>
+</li>
+<li>
+<p>While drawing walls move your cursor in the direction you want to draw your wall then <code>type numbers</code> to enter in exact wall lengths.</p>
+</li>
+<li>
+<p>Hold <code>Alt</code> to change the angle of the wall.</p>
+</li>
+<li>
+<p>After you have drawn more than two walls you can type the <code>C</code> key to close the room. This connects the wall you are drawing with the start point of the first wall.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is important to draw your rooms clockwise. Walls have an inside and outside. If you find cabinets are snapping to the wrong side then you drew the walls counter-clockwise.</p>
+<p><figure markdown>
+    <img alt="Image title" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/73abb3df-b9b3-4531-92c6-4b4518dae9de" width="600" />
+    <figcaption>This is the correct direction to draw the walls.</figcaption>
+</figure></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you cancel the command while drawing walls you can select the end of the last point to continue drawing walls.</p>
+</div>
+<h3 id="wall-prompts">Wall Prompts</h3>
+<p>After you have your room shape drawn you can quickly make modifications to the size of your room by right clicking and selecting <code>Wall Prompts</code>.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/36e0772f-bcbe-48ab-a056-4bc9db4204ff" /></p>
+<p>Here you can change the size, location, and rotation of the selected wall.</p>
+<p>If a wall is connected to another wall you can click the <code>Disconnect Wall</code> button to disconnect it from the previous wall.</p>
+<p>There are also commands to add a room light and a floor. These are commands to quickly add these types of elements, but you can always add your own Blender lights and floor object to the scene.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/dd2d1a80-dab2-4fa7-9470-0c5d713fcba2" /></p>
+<h3 id="wall-commands">Wall Commands</h3>
+<p>If you right click with a wall selected you will also see the wall commands menu.</p>
+<p><img alt="image" src="https://github.com/CreativeDesigner3D/home_builder_3_docs/assets/34818078/6db42199-4ae0-4b0e-9fc9-c9254f63655b" /></p>
+<ul>
+<li>
+<p>Edit Wall - This command applies all of the wall modifiers and enters edit mode. Allowing you to change the shape of the wall using Blenders modeling commands.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Once you Edit the wall shape you will now be able to change the size of the room using the prompts interface.</p>
+</div>
+</li>
+<li>
+<p>Add Wall Length Dimension - This commands adds a dimension annotation to the wall that displays in the 3D environment.</p>
+</li>
+<li>
+<p>Delete Wall - This commands deletes the active wall and all other selected walls. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is important to use this command and not Blenders default delete command. Since there are several objects that make up the wall command, if you use the Home Builder Delete Wall command this will correctly remove all references to the wall including any doors, window, or cabinets that have been placed on the wall.</p>
+</div>
+</li>
+</ul>
+<h3 id="understanding-the-wall-object">Understanding the Wall Object</h3>
+<p>A wall is an Assembly. This is the basic building block of all Home Builder Assets. It is a group of objects that are structured in a specific way. You can think of it as a container for all of the products assigned to that wall. </p>
+<p><img alt="Alt text" src="../images/wall_outliner.png" /></p>
+<p>Each wall is listed separately and if you drop down the hierarchy you will find the wall consists of:</p>
+<ul>
+<li>
+<p>Base Point - This is an empty object that contains the base point of all other objects.</p>
+</li>
+<li>
+<p>Mesh - This is the physical representation of the wall.</p>
+</li>
+<li>
+<p>X, Y, Z Object - These control the size of the wall.</p>
+</li>
+<li>
+<p>Other Empties - There are several other empty objects that control the prompts and miters for the walls.</p>
+</li>
+<li>
+<p>Other Assemblies - As you add other assets like doors, windows, and cabinets to walls they will be nested inside of that wall assembly.</p>
+</li>
+</ul>
+<h3 id="assigning-materials-to-walls">Assigning Materials to Walls</h3>
+<p><img alt="Alt text" src="../images/drag_material_to_wall.png" /></p>
+<p>You can assign materials to the wall by dragging and dropping materials from the material library to the wall mesh. This will open an interface that allows you to assign them to the individual wall, or to the wall pointer which will update all walls in the scene.</p>
+<p><img alt="Alt text" src="../images/wall_prompts.png" /></p>
+<ul>
+<li>
+<p>Override All - This updates all of the slots for this one object.</p>
+</li>
+<li>
+<p>Override - This updates the specific material slot it is inline with.</p>
+</li>
+<li>
+<p>Update All - This updates all of the material slots that use the pointer name "Walls"</p>
+</li>
+</ul>
+<h2 id="products">Products</h2>
+<p>Products are assets that typically need to be purchased or built for the room. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>"Purchased" and "Built" refers to the idea that the person who is designing this space will need to purchase these items from a manufacturer or reseller of the product. For example if you are renovating a kitchen the client will need to buy cabinets and appliances for the renovation. Home Builder is being developed with the functionality to generating manufacturing data of the products in the scene. This is not available in the sample library, but it is possible to get cutlists, g-code, and pricing information from any assets that is placed from the product library.  </p>
+</div>
+<p>You can change the active product library using the drop down. The drop down next to the product library will open the active product library settings. This will be different for each library. </p>
+<p><img alt="Alt text" src="../images/product_library_category_and_settings.png" /></p>
+<ol>
+<li>The drop down menu to the left allows you to switch between different product libraries.</li>
+<li>The drop down menu to the right shows to the library settings for the selected library. This will be different for each library.</li>
+</ol>
+<h3 id="placing-products">Placing Products</h3>
+<p>These assets are typically dragged and dropped onto a wall or the floor. They interact with other products in the scene so they snap together in a logical way. Review the documentation for each library to understand how each of the sample libraries work.</p>
+<p><img alt="Alt text" src="../images/placing_cabinets.png" /></p>
+<h3 id="product-prompts">Product Prompts</h3>
+<p>Just like walls each product has its own prompts interface that can be accessed by right click with a part of the product selected.</p>
+<p><img alt="Alt text" src="../images/product_prompts.png" /></p>
+<h3 id="product-commands">Product Commands</h3>
+<p>Just like walls each product has its own commands menu that can be accessed by right click with a part of the product selected. These commands are typically used to access duplicate, delete, and other commands to manipulate that specific type of asset.</p>
+<h2 id="decorations">Decorations</h2>
+<p>The Decorations library is a library of standard Blender objects that can quickly be added to the scene.</p>
+<p>You can switch between the different categories by using the drop down.</p>
+<p>You can place assets from the library by dragging and dropping them into the scene. They will snap to mesh faces and will match the rotation of any Home Builder wall that you drag them onto.</p>
+<h3 id="saving-your-own-decorations-to-the-library">Saving Your Own Decorations to the Library</h3>
+<p>You can save any Blender object to this library. By selecting the object you want to save, then selecting the <code>Save Selected Object to Library</code> Command from the Decoration Library Settings Menu.</p>
+<p><img alt="Alt text" src="../images/save_selected_object_to_deco_lib.png" /></p>
+<p>If you want to save multiple objects as one asset to the library you need to parent all of the objects to one object then save the base point. When saving the asset the confirmation dialog will ask you if you want to save the child objects as well. Turn this on and click OK.</p>
+<p><img alt="Alt text" src="../images/save_deco_include_child_objects.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distribute them to other users. View the Section on <a href="../04_library_development/#creating-external-decoration-and-material-libraries">Creating External Libraries</a> for further details.</p>
+</div>
+<h2 id="materials">Materials</h2>
+<p>The Materials library is a library of standard Blender materials that can quickly be added to objects in the scene.</p>
+<p>You can switch between the different categories by using the drop down.</p>
+<p>You can place materials from the library by dragging and dropping them into the scene then selecting an object to assign them to. When placing materials on an object with multiple material slots a dialog will appear and allow you to assign them to individual material slots, or update a material pointer that is assigned to all of the objects in the scene.</p>
+<p><img alt="Alt text" src="../images/wall_material_assignment_dialog.png" /></p>
+<ul>
+<li>
+<p>Override All - This updates all of the slots for this one object.</p>
+</li>
+<li>
+<p>Override - This updates the specific material slot it is inline with.</p>
+</li>
+<li>
+<p>Update All - This updates all of the material slots that use the pointer name that slot is assigned.</p>
+</li>
+</ul>
+<h3 id="saving-your-own-materials-to-the-library">Saving Your Own Materials to the Library</h3>
+<p>You can save any Blender materials to this library. By selecting the object that the material is assigned and selecting the material in the object material properties interface. </p>
+<p><img alt="Alt text" src="../images/active_material_interface.png" /></p>
+<p>Then select <code>Save Active Material to Library</code> command in the Material Library Settings Menu.</p>
+<p><img alt="Alt text" src="../images/save_active_material_to_library.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is a good idea to create an external library package for your custom assets. This makes it so they don't get overwritten when you update and you can easily distribute them to other users. View the Section on <a href="../04_library_development/#creating-external-decoration-and-material-libraries">Creating External Libraries</a> for further details.</p>
+</div>
+<h2 id="build-library">Build Library</h2>
+<p>The Build library is intended to allow you to design your own custom products. After snapping different starters, inserts, and parts together you can save your product to the user library where you can reuse your custom products in future projects. This works great for custom islands, custom closet configurations, and other custom cabinets. </p>
+<p><img alt="Alt text" src="../images/build_library.png" /></p>
+<h3 id="starters">Starters</h3>
+<p>The Starters Library typically contains starter components for creating new products. These starter components also typically have openings that inserts and parts can be dropped into.</p>
+<h3 id="inserts">Inserts</h3>
+<p>The Inserts Library typically contains components that can be dropped into openings. If you are using the cabinet library you will notice that you can drop items like shelves, doors, and drawers into openings. After dropping an insert into an opening the insert will remain parametric and always match the opening size.</p>
+<h3 id="parts">Parts</h3>
+<p>The Parts Library typically contains individual parts that can be dropped onto a starter or into an opening depending on the parts. Each part may have it's own drop functionality to determine the best way it should be placed into the scene.</p>
+<h3 id="user-library">User Library</h3>
+<p>The User Library contains your own custom products or assemblies that you created. You can create new categories and save your assets to these categories.</p>
+<p>You can create new categories in the build library settings drop down. By selecting the <code>Create New Category</code> button.</p>
+<p><img alt="Alt text" src="../images/build_library_create_new_category.png" /></p>
+<p>After creating a new category you can save an assembly by using the button above the category drop down. The button name will display the current Assembly you have selected. The button to the right selects the parent assembly. If you want to save the top level assembly keep clicking that button until it is disabled.</p>
+<p><img alt="Alt text" src="../images/save_cabinet_to_build_library.png" /></p>
+<p>You will notice all parts that are part of that assembly will be highlighted in the 3D Viewport.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/CreativeDesigner3D" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/andrewpeel_dev" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
